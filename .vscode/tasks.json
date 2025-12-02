@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make: build",
+            "type": "shell",
+            "command": "make",
+            "group": "build",
+            "presentation": { "reveal": "always" },
+            "problemMatcher": []
+        },
+        {
+            "label": "Make: run",
+            "type": "shell",
+            "command": "make run",
+            "presentation": { "reveal": "always" }
+        },
+        {
+            "label": "Make: test",
+            "type": "shell",
+            "command": "make test",
+            "presentation": { "reveal": "always" }
+        }
+    ]
+}
