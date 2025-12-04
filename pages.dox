@@ -1,62 +1,74 @@
 /**
-@mainpage c-workplace
+@page git_cli_guide Git CLI Guide
 
-# Welcome to c-workplace
+Para instrucciones prácticas de trabajar con Git desde la línea de comandos y subir a GitHub, 
+consulta el archivo `GIT_CLI_GUIDE.md`.
 
-Simple C project scaffold with build and test targets.
+Esta guía cubre:
+- Configuración inicial de Git
+- Comandos básicos de workflow
+- Ejemplos prácticos
+- Manejo de .gitignore
+- Resolución de conflictos
+- Stashing y tags
 
-Build and run (using a bash shell with `gcc` installed):
-
-```bash
-make        # builds
-make run    # runs the program
-make test   # builds and runs the test
-make clean  # remove build artifacts
-```
-
-If `make` is not available, build manually:
-
-```bash
-mkdir -p build
-gcc -Iinclude -o build/main src/main.c
-./build/main
-```
-
-## Guías útiles
-
-- @ref git_cli_guide "Git CLI Guide"
-- @ref github_actions_guide "GitHub Actions Guide"
-- @ref learning_roadmap "Learning Roadmap"
-- @ref cpp_stack_guide "C/C++ Stack Guide"
-
----
+Archivo: `GIT_CLI_GUIDE.md`
 
 */
 
-/** @page git_cli_guide Git CLI Guide
-@tableofcontents
+/**
+@page github_actions_guide GitHub Actions Guide
 
-@includemarkdown{GIT_CLI_GUIDE.md}
+Para una explicación completa de GitHub Actions workflow y cómo automatizar la documentación,
+consulta el archivo `GITHUB_ACTIONS_GUIDE.md`.
 
-*/
+Esta guía cubre:
+- Qué son GitHub Actions
+- Estructura de workflows
+- Variables de entorno
+- Actions reutilizables
+- Triggers y eventos
+- Debugging de workflows
 
-/** @page github_actions_guide GitHub Actions Guide
-@tableofcontents
-
-@includemarkdown{GITHUB_ACTIONS_GUIDE.md}
-
-*/
-
-/** @page learning_roadmap Learning Roadmap
-@tableofcontents
-
-@includemarkdown{LEARNING_ROADMAP.md}
+Archivo: `GITHUB_ACTIONS_GUIDE.md`
 
 */
 
-/** @page cpp_stack_guide C/C++ Development Stack
-@tableofcontents
+/**
+@page learning_roadmap Learning Roadmap
 
-@includemarkdown{CPP_STACK.md}
+Para un plan completo de aprendizaje del stack de C/C++, ejercicios progresivos y recursos,
+consulta el archivo `LEARNING_ROADMAP.md`.
+
+Este roadmap incluye:
+- 4 fases de aprendizaje estructurado
+- Comparación C vs C++
+- Ejercicios por nivel (beginner, intermediate, advanced, expert)
+- Recursos recomendados
+- Plan de estudio de 2-3 meses
+- Proyectos prácticos
+
+Archivo: `LEARNING_ROADMAP.md`
 
 */
+
+/**
+@page cpp_stack_guide C/C++ Development Stack
+
+Para una guía completa de herramientas, compiladores, librerías y extensiones para desarrollo
+profesional en C/C++, consulta el archivo `CPP_STACK.md`.
+
+Esta guía cubre:
+- Compiladores (GCC, Clang)
+- Build systems (Makefile, CMake)
+- Testing frameworks
+- Librerías estándar y externas
+- Herramientas de análisis y debugging
+- Extensiones VS Code
+- Stack minimalista vs profesional
+- Configuración CI/CD
+
+Archivo: `CPP_STACK.md`
+
+*/
+

@@ -22,9 +22,6 @@ GENERATE_TREEVIEW      = YES
 DISABLE_INDEX          = NO
 FULL_SIDEBAR           = YES
 
-# Markdown as main page
-USE_MDFILE_AS_MAINPAGE = README.md
-
 # Disable LaTeX to keep output small
 GENERATE_LATEX         = NO
 
