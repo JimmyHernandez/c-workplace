@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🚀_20nivel_20avanzado_0',['🚀 NIVEL AVANZADO',['../md_PROJECTS.html#autotoc_md129',1,'']]]
+  ['🔰_20nivel_20principiante_0',['🔰 NIVEL PRINCIPIANTE',['../md_PROJECTS.html#autotoc_md155',1,'']]]
 ];

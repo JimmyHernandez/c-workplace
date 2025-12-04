@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('md_GITHUB__SETUP.html',''); initResiza
   <div class="headertitle"><div class="title">📤 Guía: Subir a GitHub</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md91"></a> Tu proyecto está listo para subirse a GitHub. Sigue estos pasos:</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md131"></a> Tu proyecto está listo para subirse a GitHub. Sigue estos pasos:</p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md93"></a>
+<h1><a class="anchor" id="autotoc_md133"></a>
 Paso 1: Crear Repositorio en GitHub</h1>
 <ol type="1">
 <li>Ve a <a href="https://github.com/new">https://github.com/new</a></li>
@@ -109,7 +109,7 @@ Paso 1: Crear Repositorio en GitHub</h1>
 <li>Haz clic en "Create repository"</li>
 </ol>
 <hr  />
-<h1><a class="anchor" id="autotoc_md95"></a>
+<h1><a class="anchor" id="autotoc_md135"></a>
 Paso 2: Conectar Repositorio Local a GitHub</h1>
 <p>Después de crear el repo en GitHub, verás instrucciones. Ejecuta en WSL:</p>
 <div class="fragment"><div class="line">wsl</div>
@@ -127,14 +127,14 @@ Paso 2: Conectar Repositorio Local a GitHub</h1>
 <div class="line">git branch -M main</div>
 <div class="line">git push -u origin main</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md97"></a>
+<h1><a class="anchor" id="autotoc_md137"></a>
 Paso 3: Verificar que se Subió</h1>
 <p>Después de ejecutar los comandos anteriores:</p><ul>
 <li>Ve a tu repositorio en GitHub: <code><a href="https://github.com/USUARIO/c-workspace">https://github.com/USUARIO/c-workspace</a></code></li>
 <li>Deberías ver todos tus archivos (src/, tests/, include/, <a class="el" href="WORKLOG_8md.html">WORKLOG.md</a>, <a class="el" href="PROJECTS_8md.html">PROJECTS.md</a>, etc.)</li>
 </ul>
 <hr  />
-<h1><a class="anchor" id="autotoc_md99"></a>
+<h1><a class="anchor" id="autotoc_md139"></a>
 Paso 4: Futuros Commits</h1>
 <p>Después del primer push, los próximos commits son más simples:</p>
 <div class="fragment"><div class="line"># Hacer cambios en tu código</div>
@@ -144,7 +144,7 @@ Paso 4: Futuros Commits</h1>
 <div class="line"># Subir</div>
 <div class="line">git push</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md101"></a>
+<h1><a class="anchor" id="autotoc_md141"></a>
 Comando Rápido (Copiar y Pegar)</h1>
 <p>Si quieres hacerlo todo de una vez, desde WSL:</p>
 <div class="fragment"><div class="line">wsl</div>
@@ -154,7 +154,7 @@ Comando Rápido (Copiar y Pegar)</h1>
 <div class="line">git push -u origin main</div>
 </div><!-- fragment --><p><b>Reemplaza <code>USUARIO</code> con tu nombre de usuario de GitHub.</b></p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md103"></a>
+<h1><a class="anchor" id="autotoc_md143"></a>
 Alternativa: Token de Acceso (si falla con HTTPS)</h1>
 <p>Si te pide contraseña y no funciona:</p>
 <ol type="1">
@@ -182,13 +182,13 @@ Alternativa: Token de Acceso (si falla con HTTPS)</h1>
 <div class="line">git remote add origin git@github.com:USUARIO/c-workspace.git</div>
 <div class="line">git push -u origin main</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md105"></a>
+<h1><a class="anchor" id="autotoc_md145"></a>
 Verificar Configuración de Git</h1>
 <p>Antes de pushear, verifica tu configuración:</p>
 <div class="fragment"><div class="line">git config --global user.name &quot;Tu Nombre&quot;</div>
 <div class="line">git config --global user.email &quot;tu_email@example.com&quot;</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md107"></a>
+<h1><a class="anchor" id="autotoc_md147"></a>
 Si Algo Falla</h1>
 <p><b>Error: "fatal: not a git repository"</b></p><ul>
 <li>Asegúrate de estar en <code>/mnt/c/Users/jimmy/OneDrive/Desktop/proyectosRandom/c-workplace</code></li>
@@ -203,7 +203,7 @@ Si Algo Falla</h1>
 <li>Sigue la sección "Token de Acceso" arriba</li>
 </ul>
 <hr  />
-<h1><a class="anchor" id="autotoc_md109"></a>
+<h1><a class="anchor" id="autotoc_md149"></a>
 Estado Actual de tu Proyecto</h1>
 <div class="fragment"><div class="line">Total de commits: 2</div>
 <div class="line">- Initial commit: C workspace scaffold with test harness</div>
@@ -220,7 +220,7 @@ Estado Actual de tu Proyecto</h1>
 <div class="line">- .vscode/ (configuración VS Code)</div>
 <div class="line">- .github/ (scripts de automatización)</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md111"></a>
+<h1><a class="anchor" id="autotoc_md151"></a>
 Próximos Pasos en GitHub</h1>
 <p>Después de subir:</p><ol type="1">
 <li>Opcionalmente, habilita GitHub Actions para CI/CD</li>

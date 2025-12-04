@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['docs_5fchangelog_2emd_0',['DOCS_CHANGELOG.md',['../DOCS__CHANGELOG_8md.html',1,'']]]
+  ['cpp_5fstack_2emd_0',['CPP_STACK.md',['../CPP__STACK_8md.html',1,'']]]
 ];

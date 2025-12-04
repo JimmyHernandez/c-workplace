@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['📤_20guía_3a_20subir_20a_20github_0',['📤 Guía: Subir a GitHub',['../md_GITHUB__SETUP.html',1,'']]]
+  ['📋_20tabla_20resumen_0',['📋 Tabla Resumen',['../md_PROJECTS.html#autotoc_md176',1,'']]]
 ];

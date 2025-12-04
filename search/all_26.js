@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['📋_20tabla_20resumen_0',['📋 Tabla Resumen',['../md_PROJECTS.html#autotoc_md136',1,'']]]
+  ['💡_20recursos_20adicionales_0',['💡 Recursos Adicionales',['../md_PROJECTS.html#autotoc_md182',1,'']]]
 ];
