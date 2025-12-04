@@ -6,7 +6,7 @@ OUTPUT_DIRECTORY       = docs
 CREATE_SUBDIRS         = NO
 
 # Input
-INPUT                  = src include README.md
+INPUT                  = src include README.md GIT_CLI_GUIDE.md GITHUB_ACTIONS_GUIDE.md DOCS_CHANGELOG.md
 FILE_PATTERNS          = *.c *.h *.md
 RECURSIVE              = NO
 
