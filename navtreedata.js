@@ -28,6 +28,21 @@ var NAVTREE =
     [ "C Workspace (c-workplace)", "md_README.html", [
       [ "Guías útiles", "md_README.html#autotoc_md1", null ]
     ] ],
+    [ "GitHub Actions — Publicar documentación Doxygen en GitHub Pages", "md_GITHUB__ACTIONS__GUIDE.html", [
+      [ "Resumen del flujo", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md3", null ],
+      [ "Requisitos", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md4", null ],
+      [ "Workflow de ejemplo", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md5", null ],
+      [ "Qué esperar después del push", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md6", null ],
+      [ "Seguridad y permisos", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md7", null ],
+      [ "Opciones y mejoras", "md_GITHUB__ACTIONS__GUIDE.html#autotoc_md8", null ]
+    ] ],
+    [ "Cambios y registro de documentación — c-workplace", "md_DOCS__CHANGELOG.html", [
+      [ "Resumen de acciones", "md_DOCS__CHANGELOG.html#autotoc_md10", null ],
+      [ "Descripción detallada de cada cambio", "md_DOCS__CHANGELOG.html#autotoc_md11", null ],
+      [ "Cómo usar ahora", "md_DOCS__CHANGELOG.html#autotoc_md12", null ],
+      [ "Verificación", "md_DOCS__CHANGELOG.html#autotoc_md13", null ],
+      [ "Referencias y lecturas recomendadas", "md_DOCS__CHANGELOG.html#autotoc_md14", null ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
