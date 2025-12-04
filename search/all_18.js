@@ -25,7 +25,8 @@ var searchData=
   ['resumen_20de_20acciones_22',['Resumen de acciones',['../md_DOCS__CHANGELOG.html#autotoc_md41',1,'']]],
   ['resumen_20del_20flujo_23',['Resumen del flujo',['../md_GITHUB__ACTIONS__GUIDE.html#autotoc_md125',1,'']]],
   ['reusable_20code_20tt_20src_20math_5futils_20c_20tt_20tt_20include_20math_5futils_20h_20tt_24',['4. Reusable Code (&lt;tt&gt;src/math_utils.c&lt;/tt&gt; + &lt;tt&gt;include/math_utils.h&lt;/tt&gt;)',['../md_WORKLOG.html#autotoc_md221',1,'']]],
-  ['run_20tests_25',['Step 6: Run Tests',['../md_WORKLOG.html#autotoc_md197',1,'']]],
-  ['run_20the_20program_26',['Step 5: Run the Program',['../md_WORKLOG.html#autotoc_md196',1,'']]],
-  ['running_20tt_20build_20main_20tt_27',['&quot;Permission denied&quot; when running &lt;tt&gt;build/main&lt;/tt&gt;',['../md_WORKLOG.html#autotoc_md215',1,'']]]
+  ['roadmap_25',['Learning Roadmap',['../learning_roadmap.html',1,'']]],
+  ['run_20tests_26',['Step 6: Run Tests',['../md_WORKLOG.html#autotoc_md197',1,'']]],
+  ['run_20the_20program_27',['Step 5: Run the Program',['../md_WORKLOG.html#autotoc_md196',1,'']]],
+  ['running_20tt_20build_20main_20tt_28',['&quot;Permission denied&quot; when running &lt;tt&gt;build/main&lt;/tt&gt;',['../md_WORKLOG.html#autotoc_md215',1,'']]]
 ];

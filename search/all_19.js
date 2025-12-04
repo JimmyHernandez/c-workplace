@@ -20,7 +20,7 @@ var searchData=
   ['sort_17',['Ejercicio 9: Bubble Sort',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md117',1,'']]],
   ['sphinx_20documentación_20avanzada_18',['Sphinx (Documentación avanzada)',['../md_CPP__STACK.html#autotoc_md27',1,'']]],
   ['src_20math_5futils_20c_20tt_20tt_20include_20math_5futils_20h_20tt_19',['4. Reusable Code (&lt;tt&gt;src/math_utils.c&lt;/tt&gt; + &lt;tt&gt;include/math_utils.h&lt;/tt&gt;)',['../md_WORKLOG.html#autotoc_md221',1,'']]],
-  ['stack_20',['Ejercicio 4: Pila (Stack)',['../md_EXERCISES__ADVANCED.html#autotoc_md55',1,'']]],
+  ['stack_20',['stack',['../cpp_stack_guide.html',1,'C/C++ Development Stack'],['../md_EXERCISES__ADVANCED.html#autotoc_md55',1,'Ejercicio 4: Pila (Stack)']]],
   ['stack_20—_20herramientas_20librerías_20y_20extensiones_20profesionales_21',['C/C++ Development Stack — Herramientas, librerías y extensiones profesionales',['../md_CPP__STACK.html',1,'']]],
   ['stack_20minimalista_20vs_20profesional_22',['Stack minimalista vs profesional',['../md_CPP__STACK.html#autotoc_md35',1,'']]],
   ['stack_20recomendado_23',['Stack recomendado',['../md_CPP__STACK.html#autotoc_md2',1,'']]],

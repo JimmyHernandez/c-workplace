@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "c-workplace", "index.html", [
+    [ "C Workspace (c-workplace)", "index.html", "index" ],
     [ "C/C++ Development Stack — Herramientas, librerías y extensiones profesionales", "md_CPP__STACK.html", [
       [ "Índice", "md_CPP__STACK.html#autotoc_md1", null ],
       [ "Stack recomendado", "md_CPP__STACK.html#autotoc_md2", null ],
@@ -169,9 +170,6 @@ var NAVTREE =
       [ "💡 Recursos Adicionales", "md_PROJECTS.html#autotoc_md182", null ],
       [ "🏆 Próximos Pasos Después de Estos Proyectos", "md_PROJECTS.html#autotoc_md184", null ]
     ] ],
-    [ "C Workspace (c-workplace)", "md_README.html", [
-      [ "Guías útiles", "md_README.html#autotoc_md187", null ]
-    ] ],
     [ "C Workspace Worklog", "md_WORKLOG.html", [
       [ "Project Summary", "md_WORKLOG.html#autotoc_md189", null ],
       [ "Getting Started (Step-by-Step)", "md_WORKLOG.html#autotoc_md191", [
@@ -227,6 +225,10 @@ var NAVTREE =
       [ "Files Created/Modified", "md_WORKLOG.html#autotoc_md242", null ],
       [ "Commands You Have Available", "md_WORKLOG.html#autotoc_md244", null ]
     ] ],
+    [ "Git CLI Guide", "git_cli_guide.html", null ],
+    [ "GitHub Actions Guide", "github_actions_guide.html", null ],
+    [ "Learning Roadmap", "learning_roadmap.html", null ],
+    [ "C/C++ Development Stack", "cpp_stack_guide.html", null ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
@@ -240,7 +242,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_68267d1309a1af8e8297ef4c3efbcdba.html"
+"cpp_stack_guide.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
