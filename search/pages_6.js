@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['registro_20de_20documentación_20—_20c_20workplace_0',['Cambios y registro de documentación — c-workplace',['../md_DOCS__CHANGELOG.html',1,'']]]
+  ['nivel_20avanzado_0',['Ejercicios de C - Nivel Avanzado',['../md_EXERCISES__ADVANCED.html',1,'']]],
+  ['nivel_20intermedio_1',['Ejercicios de C - Nivel Intermedio',['../md_EXERCISES__INTERMEDIATE.html',1,'']]],
+  ['nivel_20principiante_2',['Ejercicios de C - Nivel Principiante',['../md_EXERCISES__BEGINNER.html',1,'']]]
 ];

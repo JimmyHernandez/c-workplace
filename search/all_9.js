@@ -1,7 +1,27 @@
 var searchData=
 [
-  ['pages_0',['GitHub Actions — Publicar documentación Doxygen en GitHub Pages',['../md_GITHUB__ACTIONS__GUIDE.html',1,'']]],
-  ['permisos_1',['Seguridad y permisos',['../md_GITHUB__ACTIONS__GUIDE.html#autotoc_md7',1,'']]],
-  ['publicar_20documentación_20doxygen_20en_20github_20pages_2',['GitHub Actions — Publicar documentación Doxygen en GitHub Pages',['../md_GITHUB__ACTIONS__GUIDE.html',1,'']]],
-  ['push_3',['Qué esperar después del push',['../md_GITHUB__ACTIONS__GUIDE.html#autotoc_md6',1,'']]]
+  ['a_20github_0',['a github',['../md_GITHUB__SETUP.html',1,'📤 Guía: Subir a GitHub'],['../md_GITHUB__SETUP.html#autotoc_md95',1,'Paso 2: Conectar Repositorio Local a GitHub']]],
+  ['a_20new_20math_20function_1',['Scenario: Add a New Math Function',['../md_WORKLOG.html#autotoc_md168',1,'']]],
+  ['a_3a_20from_20windows_20powershell_20cmd_2',['Option A: From Windows PowerShell/CMD',['../md_WORKLOG.html#autotoc_md192',1,'']]],
+  ['absoluto_3',['Ejercicio 5: Función que Calcula el Absoluto',['../md_EXERCISES__BEGINNER.html#autotoc_md42',1,'']]],
+  ['acceso_20si_20falla_20con_20https_4',['Alternativa: Token de Acceso (si falla con HTTPS)',['../md_GITHUB__SETUP.html#autotoc_md103',1,'']]],
+  ['access_20use_5',['How to Access &amp; Use',['../md_WORKLOG.html#autotoc_md191',1,'']]],
+  ['acciones_6',['Resumen de acciones',['../md_DOCS__CHANGELOG.html#autotoc_md1',1,'']]],
+  ['actions_20—_20publicar_20documentación_20doxygen_20en_20github_20pages_7',['GitHub Actions — Publicar documentación Doxygen en GitHub Pages',['../md_GITHUB__ACTIONS__GUIDE.html',1,'']]],
+  ['actual_20de_20tu_20proyecto_8',['Estado Actual de tu Proyecto',['../md_GITHUB__SETUP.html#autotoc_md109',1,'']]],
+  ['add_20a_20new_20math_20function_9',['Scenario: Add a New Math Function',['../md_WORKLOG.html#autotoc_md168',1,'']]],
+  ['adicionales_10',['💡 Recursos Adicionales',['../md_PROJECTS.html#autotoc_md142',1,'']]],
+  ['ahora_11',['Cómo usar ahora',['../md_DOCS__CHANGELOG.html#autotoc_md3',1,'']]],
+  ['algo_20falla_12',['Si Algo Falla',['../md_GITHUB__SETUP.html#autotoc_md107',1,'']]],
+  ['alternativa_3a_20token_20de_20acceso_20si_20falla_20con_20https_13',['Alternativa: Token de Acceso (si falla con HTTPS)',['../md_GITHUB__SETUP.html#autotoc_md103',1,'']]],
+  ['analizador_20de_20logs_14',['Proyecto 6: Analizador de Logs',['../md_PROJECTS.html#autotoc_md127',1,'']]],
+  ['archivos_15',['Ejercicio 8: Manejo de Archivos',['../md_EXERCISES__ADVANCED.html#autotoc_md23',1,'']]],
+  ['array_16',['array',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md79',1,'Ejercicio 10: Estadísticas de Array'],['../md_EXERCISES__INTERMEDIATE.html#autotoc_md63',1,'Ejercicio 2: Encontrar el Máximo en un Array'],['../md_EXERCISES__INTERMEDIATE.html#autotoc_md65',1,'Ejercicio 3: Invertir un Array'],['../md_EXERCISES__INTERMEDIATE.html#autotoc_md71',1,'Ejercicio 6: Duplicar Array'],['../md_EXERCISES__INTERMEDIATE.html#autotoc_md73',1,'Ejercicio 7: Filtrar Array']]],
+  ['arrays_20y_20bucles_17',['Ejercicio 1: Arrays y Bucles',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md61',1,'']]],
+  ['artifacts_20optional_18',['Step 7: Clean Build Artifacts (Optional)',['../md_WORKLOG.html#autotoc_md158',1,'']]],
+  ['assert_5feq_19',['ASSERT_EQ',['../test_8h.html#a69307cd91a0ecb364f35b426b65b9da4',1,'test.h']]],
+  ['assert_5ftrue_20',['ASSERT_TRUE',['../test_8h.html#ae9244bfbda562e8b798789b001993fa5',1,'test.h']]],
+  ['available_21',['Commands You Have Available',['../md_WORKLOG.html#autotoc_md204',1,'']]],
+  ['available_20tools_22',['Step 3: Check Available Tools',['../md_WORKLOG.html#autotoc_md154',1,'']]],
+  ['avanzado_23',['avanzado',['../md_PROJECTS.html#autotoc_md129',1,'🚀 NIVEL AVANZADO'],['../md_EXERCISES__ADVANCED.html',1,'Ejercicios de C - Nivel Avanzado']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]]
+  ['main_2ec_0',['main.c',['../main_8c.html',1,'']]],
+  ['math_5futils_2ec_1',['math_utils.c',['../math__utils_8c.html',1,'']]],
+  ['math_5futils_2eh_2',['math_utils.h',['../math__utils_8h.html',1,'']]]
 ];

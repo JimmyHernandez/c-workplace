@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['workplace_0',['workplace',['../md_README.html',1,'C Workspace (c-workplace)'],['../md_DOCS__CHANGELOG.html',1,'Cambios y registro de documentación — c-workplace']]],
-  ['workspace_20c_20workplace_1',['C Workspace (c-workplace)',['../md_README.html',1,'']]]
+  ['pages_0',['GitHub Actions — Publicar documentación Doxygen en GitHub Pages',['../md_GITHUB__ACTIONS__GUIDE.html',1,'']]],
+  ['principiante_1',['Ejercicios de C - Nivel Principiante',['../md_EXERCISES__BEGINNER.html',1,'']]],
+  ['proyectos_20de_20c_20construcción_20real_2',['Proyectos de C - Construcción Real',['../md_PROJECTS.html',1,'']]],
+  ['publicar_20documentación_20doxygen_20en_20github_20pages_3',['GitHub Actions — Publicar documentación Doxygen en GitHub Pages',['../md_GITHUB__ACTIONS__GUIDE.html',1,'']]]
 ];

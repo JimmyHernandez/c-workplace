@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
-  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
-  ['math_5fadd_2',['math_add',['../math__utils_8c.html#a059d543b50a48fde3f92f5a8c76ff2d3',1,'math_add(int a, int b):&#160;math_utils.c'],['../math__utils_8h.html#a059d543b50a48fde3f92f5a8c76ff2d3',1,'math_add(int a, int b):&#160;math_utils.c']]],
-  ['math_5fdivide_3',['math_divide',['../math__utils_8c.html#a9f10432d2bf7ca6d030d89939b179814',1,'math_divide(int a, int b):&#160;math_utils.c'],['../math__utils_8h.html#a9f10432d2bf7ca6d030d89939b179814',1,'math_divide(int a, int b):&#160;math_utils.c']]],
-  ['math_5fmultiply_4',['math_multiply',['../math__utils_8c.html#a00a2261a1a1a727453f50abaadbe107f',1,'math_multiply(int a, int b):&#160;math_utils.c'],['../math__utils_8h.html#a00a2261a1a1a727453f50abaadbe107f',1,'math_multiply(int a, int b):&#160;math_utils.c']]],
-  ['math_5fsubtract_5',['math_subtract',['../math__utils_8c.html#a6c644b835f7742f8a5b4764c9765df66',1,'math_subtract(int a, int b):&#160;math_utils.c'],['../math__utils_8h.html#a6c644b835f7742f8a5b4764c9765df66',1,'math_subtract(int a, int b):&#160;math_utils.c']]],
-  ['math_5futils_2ec_6',['math_utils.c',['../math__utils_8c.html',1,'']]],
-  ['math_5futils_2eh_7',['math_utils.h',['../math__utils_8h.html',1,'']]],
-  ['mejoras_8',['Opciones y mejoras',['../md_GITHUB__ACTIONS__GUIDE.html#autotoc_md8',1,'']]]
+  ['8_3a_20búsqueda_20binaria_0',['Ejercicio 8: Búsqueda Binaria',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md75',1,'']]],
+  ['8_3a_20base_20de_20datos_20simple_20b_20tree_1',['Proyecto 8: Base de Datos Simple (B-Tree)',['../md_PROJECTS.html#autotoc_md132',1,'']]],
+  ['8_3a_20función_20que_20encuentra_20el_20máximo_2',['Ejercicio 8: Función que Encuentra el Máximo',['../md_EXERCISES__BEGINNER.html#autotoc_md48',1,'']]],
+  ['8_3a_20manejo_20de_20archivos_3',['Ejercicio 8: Manejo de Archivos',['../md_EXERCISES__ADVANCED.html#autotoc_md23',1,'']]],
+  ['8_3a_20use_20git_20optional_4',['Step 8: Use Git (Optional)',['../md_WORKLOG.html#autotoc_md159',1,'']]]
 ];

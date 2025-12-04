@@ -92,22 +92,22 @@ $(document).ready(function(){initNavTree('md_GITHUB__ACTIONS__GUIDE.html',''); i
   <div class="headertitle"><div class="title">GitHub Actions — Publicar documentación Doxygen en GitHub Pages</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md2"></a> Fecha: 2025-12-03</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md84"></a> Fecha: 2025-12-03</p>
 <p>Esta guía explica cómo automatizar la generación y publicación de la documentación HTML generada por Doxygen en GitHub Pages usando GitHub Actions. Incluye un workflow de ejemplo que ejecuta <code>make docs</code> y publica <code>docs/html</code> en Pages.</p>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md85"></a>
 Resumen del flujo</h1>
 <ol type="1">
 <li>En cada push a la rama <code>master</code> (o <code>main</code>) se ejecuta el workflow.</li>
 <li>El runner instala <code>doxygen</code> y <code>graphviz</code>, ejecuta <code>make docs</code> para generar la documentación en <code>docs/html</code>.</li>
 <li>El workflow empaqueta <code>docs/html</code> y lo despliega a GitHub Pages.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md86"></a>
 Requisitos</h1>
 <ul>
 <li>Tener <code>Doxyfile</code> en la raíz del repo (ya existe en este proyecto).</li>
 <li>Habilitar GitHub Pages en el repositorio (opcional, el workflow puede crear la rama <code>gh-pages</code> o usar la opción 'Actions' para publicar).</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md87"></a>
 Workflow de ejemplo</h1>
 <p>Guarda el siguiente archivo como <code>.github/workflows/publish-docs.yml</code> en la raíz del repositorio. Este workflow usa <code>peaceiris/actions-gh-pages</code>, una acción estable y bien mantenida que evita dependencias con versiones deprecadas.</p>
 <div class="fragment"><div class="line">name: Publish Doxygen Docs</div>
@@ -153,19 +153,19 @@ Workflow de ejemplo</h1>
 <li><b>Solución implementada</b>: este workflow usa <code>peaceiris/actions-gh-pages@v3</code>, una acción de terceros bien mantenida que no tiene esa dependencia y es más estable para publicar en GitHub Pages. Publica en la rama <code>gh-pages</code> que GitHub Pages detecta automáticamente.</li>
 <li>Si tienes problemas de deprecación futura, verifica el changelog de GitHub Actions y actualiza las referencias a las versiones recomendadas, o migra a alternativas como <code>peaceiris/actions-gh-pages</code>.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md88"></a>
 Qué esperar después del push</h1>
 <ul>
 <li>En la pestaña <b>Actions</b> del repositorio verás el flujo en ejecución.</li>
 <li>Si todo va bien, GitHub Pages servirá el sitio desde la rama interna que Actions crea (o desde <code>gh-pages</code>, según configuración). Puedes configurar el dominio en la sección Settings → Pages.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md89"></a>
 Seguridad y permisos</h1>
 <ul>
 <li>El workflow usa <code>GITHUB_TOKEN</code> automáticamente disponible en Actions. Asegúrate de que la política de tu repositorio permite que Actions publique Pages.</li>
 <li>Para mayor control puedes usar un token personal con permisos específicos, pero <code>GITHUB_TOKEN</code> suele ser suficiente.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md90"></a>
 Opciones y mejoras</h1>
 <ul>
 <li>Ejecutar el workflow en <code>pull_request</code> para validar la generación de docs en PRs.</li>

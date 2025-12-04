@@ -1,4 +1,28 @@
 var searchData=
 [
-  ['usar_20ahora_0',['Cómo usar ahora',['../md_DOCS__CHANGELOG.html#autotoc_md12',1,'']]]
+  ['f5_20tt_0',['Debug Configurations (&lt;tt&gt;F5&lt;/tt&gt;)',['../md_WORKLOG.html#autotoc_md185',1,'']]],
+  ['factorial_1',['Ejercicio 1: Recursión - Factorial',['../md_EXERCISES__ADVANCED.html#autotoc_md9',1,'']]],
+  ['falla_2',['Si Algo Falla',['../md_GITHUB__SETUP.html#autotoc_md107',1,'']]],
+  ['falla_20con_20https_3',['Alternativa: Token de Acceso (si falla con HTTPS)',['../md_GITHUB__SETUP.html#autotoc_md103',1,'']]],
+  ['fibonacci_4',['Ejercicio 2: Recursión - Fibonacci',['../md_EXERCISES__ADVANCED.html#autotoc_md11',1,'']]],
+  ['files_20created_20modified_5',['Files Created/Modified',['../md_WORKLOG.html#autotoc_md202',1,'']]],
+  ['filtrar_20array_6',['Ejercicio 7: Filtrar Array',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md73',1,'']]],
+  ['flujo_7',['Resumen del flujo',['../md_GITHUB__ACTIONS__GUIDE.html#autotoc_md85',1,'']]],
+  ['found_8',['found',['../md_WORKLOG.html#autotoc_md172',1,'&quot;gcc: command not found&quot;'],['../md_WORKLOG.html#autotoc_md171',1,'&quot;make: command not found&quot;']]],
+  ['framework_20tt_20include_20test_20h_20tt_9',['3. Test Framework (&lt;tt&gt;include/test.h&lt;/tt&gt;)',['../md_WORKLOG.html#autotoc_md180',1,'']]],
+  ['from_20vs_20code_10',['from vs code',['../md_WORKLOG.html#autotoc_md163',1,'Build from VS Code'],['../md_WORKLOG.html#autotoc_md164',1,'Debug from VS Code']]],
+  ['from_20windows_20powershell_20cmd_11',['Option A: From Windows PowerShell/CMD',['../md_WORKLOG.html#autotoc_md192',1,'']]],
+  ['función_20con_20struct_12',['Ejercicio 5: Función con Struct',['../md_EXERCISES__INTERMEDIATE.html#autotoc_md69',1,'']]],
+  ['función_20de_20multiplicación_13',['Ejercicio 3: Función de Multiplicación',['../md_EXERCISES__BEGINNER.html#autotoc_md38',1,'']]],
+  ['función_20de_20resta_14',['Ejercicio 2: Función de Resta',['../md_EXERCISES__BEGINNER.html#autotoc_md36',1,'']]],
+  ['función_20de_20suma_20simple_15',['Ejercicio 1: Función de Suma Simple',['../md_EXERCISES__BEGINNER.html#autotoc_md34',1,'']]],
+  ['función_20que_20calcula_20el_20absoluto_16',['Ejercicio 5: Función que Calcula el Absoluto',['../md_EXERCISES__BEGINNER.html#autotoc_md42',1,'']]],
+  ['función_20que_20calcula_20potencia_17',['Ejercicio 7: Función que Calcula Potencia',['../md_EXERCISES__BEGINNER.html#autotoc_md46',1,'']]],
+  ['función_20que_20comprueba_20si_20es_20par_18',['Ejercicio 6: Función que Comprueba si es Par',['../md_EXERCISES__BEGINNER.html#autotoc_md44',1,'']]],
+  ['función_20que_20cuenta_20dígitos_19',['Ejercicio 4: Función que Cuenta Dígitos',['../md_EXERCISES__BEGINNER.html#autotoc_md40',1,'']]],
+  ['función_20que_20encuentra_20el_20máximo_20',['Ejercicio 8: Función que Encuentra el Máximo',['../md_EXERCISES__BEGINNER.html#autotoc_md48',1,'']]],
+  ['función_20que_20invierte_20un_20número_21',['Ejercicio 10: Función que Invierte un Número',['../md_EXERCISES__BEGINNER.html#autotoc_md52',1,'']]],
+  ['función_20que_20suma_20tres_20números_22',['Ejercicio 9: Función que Suma Tres Números',['../md_EXERCISES__BEGINNER.html#autotoc_md50',1,'']]],
+  ['function_23',['Scenario: Add a New Math Function',['../md_WORKLOG.html#autotoc_md168',1,'']]],
+  ['futuros_20commits_24',['Paso 4: Futuros Commits',['../md_GITHUB__SETUP.html#autotoc_md99',1,'']]]
 ];
