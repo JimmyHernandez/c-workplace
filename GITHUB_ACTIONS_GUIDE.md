@@ -81,6 +81,17 @@ Explicación rápida de las secciones importantes:
 - `make docs`: ejecuta el `Makefile` target que genera `docs/html`.
 - `upload-pages-artifact` y `deploy-pages`: empaquetan y publican el contenido en Pages.
 
+**Nota sobre versiones y deprecaciones**
+
+- Recientemente GitHub y las acciones oficiales pueden deprecar versiones antiguas
+  de las acciones (por ejemplo `actions/upload-artifact@v3`). Si tu workflow falla
+  con mensajes de deprecación, actualiza las referencias a las acciones a las
+  versiones mayores más recientes (por ejemplo `actions/upload-pages-artifact@v2`
+  y `actions/deploy-pages@v2`) o sigue las recomendaciones del changelog.
+  Esto evita errores automáticos en el runner relacionados con dependencias
+  obsoletas.
+
+
 ## Qué esperar después del push
 
 - En la pestaña **Actions** del repositorio verás el flujo en ejecución.
