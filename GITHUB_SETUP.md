@@ -173,5 +173,3 @@ Después de subir:
 4. Protege la rama `main` con reglas de review
 
 ---
-
-**¿Necesitas ayuda con algo específico? Pregunta en los comentarios del README.** 🚀
