@@ -18,3 +18,8 @@ mkdir -p build
 gcc -Iinclude -o build/main src/main.c
 ./build/main
 ```
+## Guías útiles
+
+- **Guía Git CLI**: instrucciones prácticas para trabajar con Git desde la línea de comandos y subir a GitHub — `GIT_CLI_GUIDE.md`.
+- **Guía GitHub Actions (Docs)**: cómo generar y publicar la documentación con GitHub Actions (incluye un workflow de ejemplo) — `GITHUB_ACTIONS_GUIDE.md`.
+
