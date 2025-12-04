@@ -101,6 +101,3 @@ Explicación rápida de las secciones importantes:
 - Ejecutar el workflow en `pull_request` para validar la generación de docs en PRs.
 - Correr linters o tests antes de generar docs.
 - Publicar los artefactos en una rama `gh-pages` usando `peaceiris/actions-gh-pages`.
-
-¿Quieres que añada este workflow al repositorio ahora y haga commit? Puedo
-crearlo y commitearlo automáticamente.
