@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "c-workplace", "index.html", [
-    [ "C Workspace (c-workplace)", "index.html", "index" ],
     [ "C/C++ Development Stack — Herramientas, librerías y extensiones profesionales", "md_CPP__STACK.html", [
       [ "Índice", "md_CPP__STACK.html#autotoc_md1", null ],
       [ "Stack recomendado", "md_CPP__STACK.html#autotoc_md2", null ],
@@ -169,6 +168,9 @@ var NAVTREE =
       ] ],
       [ "💡 Recursos Adicionales", "md_PROJECTS.html#autotoc_md182", null ],
       [ "🏆 Próximos Pasos Después de Estos Proyectos", "md_PROJECTS.html#autotoc_md184", null ]
+    ] ],
+    [ "C Workspace (c-workplace)", "md_README.html", [
+      [ "Guías útiles", "md_README.html#autotoc_md187", null ]
     ] ],
     [ "C Workspace Worklog", "md_WORKLOG.html", [
       [ "Project Summary", "md_WORKLOG.html#autotoc_md189", null ],

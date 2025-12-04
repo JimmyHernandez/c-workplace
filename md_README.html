@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>c-workplace: C/C++ Development Stack</title>
+<title>c-workplace: C Workspace (c-workplace)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('cpp_stack_guide.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_README.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -89,21 +89,27 @@ $(document).ready(function(){initNavTree('cpp_stack_guide.html',''); initResizab
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">C/C++ Development Stack</div></div>
+  <div class="headertitle"><div class="title">C Workspace (c-workplace)</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Para una guía completa de herramientas, compiladores, librerías y extensiones para desarrollo profesional en C/C++, consulta el archivo <code><a class="el" href="CPP__STACK_8md.html">CPP_STACK.md</a></code>.</p>
-<p>Esta guía cubre:</p><ul>
-<li>Compiladores (GCC, Clang)</li>
-<li>Build systems (Makefile, CMake)</li>
-<li>Testing frameworks</li>
-<li>Librerías estándar y externas</li>
-<li>Herramientas de análisis y debugging</li>
-<li>Extensiones VS Code</li>
-<li>Stack minimalista vs profesional</li>
-<li>Configuración CI/CD</li>
+<div class="textblock"><p><a class="anchor" id="autotoc_md186"></a> Simple C project scaffold with build and test targets.</p>
+<p>Build and run (using a bash shell with <code>gcc</code> installed):</p>
+<div class="fragment"><div class="line">make        # builds</div>
+<div class="line">make run    # runs the program</div>
+<div class="line">make test   # builds and runs the test</div>
+<div class="line">make clean  # remove build artifacts</div>
+</div><!-- fragment --><p>If <code>make</code> is not available, build manually:</p>
+<div class="fragment"><div class="line">mkdir -p build</div>
+<div class="line">gcc -Iinclude -o build/main src/main.c</div>
+<div class="line">./build/main</div>
+</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md187"></a>
+Guías útiles</h1>
+<ul>
+<li><b>Guía Git CLI</b>: instrucciones prácticas para trabajar con Git desde la línea de comandos y subir a GitHub — <code>GIT_CLI_GUIDE.md</code>.</li>
+<li><b>Guía GitHub Actions (Docs)</b>: cómo generar y publicar la documentación con GitHub Actions (incluye un workflow de ejemplo) — <code><a class="el" href="GITHUB__ACTIONS__GUIDE_8md.html">GITHUB_ACTIONS_GUIDE.md</a></code>.</li>
+<li><b>Learning Roadmap</b>: plan de aprendizaje del stack completo en 4 fases con ejercicios progresivos — <code>LEARNING_ROADMAP.md</code>.</li>
+<li><b>C/C++ Stack Guide</b>: herramientas, compiladores, librerías, extensiones y frameworks profesionales — <code><a class="el" href="CPP__STACK_8md.html">CPP_STACK.md</a></code>. </li>
 </ul>
-<p>Archivo: <code><a class="el" href="CPP__STACK_8md.html">CPP_STACK.md</a></code> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

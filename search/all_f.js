@@ -20,6 +20,6 @@ var searchData=
   ['gnu_20debugger_17',['GDB (GNU Debugger)',['../md_CPP__STACK.html#autotoc_md21',1,'']]],
   ['googletest_20c_20o_20c_20con_20wrapper_18',['GoogleTest (C++ o C con wrapper)',['../md_CPP__STACK.html#autotoc_md15',1,'']]],
   ['guía_3a_20subir_20a_20github_19',['📤 Guía: Subir a GitHub',['../md_GITHUB__SETUP.html',1,'']]],
-  ['guías_20útiles_20',['guías útiles',['../index.html#autotoc_md187',1,'Guías útiles'],['..//home/runner/work/c-workplace/c-workplace/pages.dox#autotoc_md247',1,'Guías útiles']]],
+  ['guías_20útiles_20',['Guías útiles',['../md_README.html#autotoc_md187',1,'']]],
   ['guide_21',['guide',['../git_cli_guide.html',1,'Git CLI Guide'],['../github_actions_guide.html',1,'GitHub Actions Guide']]]
 ];
