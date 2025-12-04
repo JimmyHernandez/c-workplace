@@ -82,5 +82,3 @@ Se ejecutó `make docs` y la salida HTML quedó en `docs/html/index.html`.
 - Markdown All in One: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one — ayuda para editar Markdown en VS Code.
 
 ---
-
-Si quieres, hago el commit y push de `Doxyfile`, `Makefile`, `.gitignore`, y los cambios en `include/` y `src/`, o solo preparo el commit y lo revisas antes de pushear. También puedo añadir un workflow de GitHub Actions para generar y publicar docs automáticamente.
