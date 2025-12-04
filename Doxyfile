@@ -6,7 +6,7 @@ OUTPUT_DIRECTORY       = docs
 CREATE_SUBDIRS         = NO
 
 # Input
-INPUT                  = src include . 
+INPUT                  = src include . pages.dox
 FILE_PATTERNS          = *.c *.h *.md
 RECURSIVE              = NO
 EXCLUDE_PATTERNS       = */build/* */docs/*
@@ -19,6 +19,11 @@ EXTRACT_PRIVATE        = YES
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
 GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = YES
+
+# Markdown as main page
+USE_MDFILE_AS_MAINPAGE = README.md
 
 # Disable LaTeX to keep output small
 GENERATE_LATEX         = NO

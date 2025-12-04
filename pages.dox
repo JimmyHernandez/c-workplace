@@ -1,0 +1,62 @@
+/**
+@mainpage c-workplace
+
+# Welcome to c-workplace
+
+Simple C project scaffold with build and test targets.
+
+Build and run (using a bash shell with `gcc` installed):
+
+```bash
+make        # builds
+make run    # runs the program
+make test   # builds and runs the test
+make clean  # remove build artifacts
+```
+
+If `make` is not available, build manually:
+
+```bash
+mkdir -p build
+gcc -Iinclude -o build/main src/main.c
+./build/main
+```
+
+## Guías útiles
+
+- @ref git_cli_guide "Git CLI Guide"
+- @ref github_actions_guide "GitHub Actions Guide"
+- @ref learning_roadmap "Learning Roadmap"
+- @ref cpp_stack_guide "C/C++ Stack Guide"
+
+---
+
+*/
+
+/** @page git_cli_guide Git CLI Guide
+@tableofcontents
+
+@includemarkdown{GIT_CLI_GUIDE.md}
+
+*/
+
+/** @page github_actions_guide GitHub Actions Guide
+@tableofcontents
+
+@includemarkdown{GITHUB_ACTIONS_GUIDE.md}
+
+*/
+
+/** @page learning_roadmap Learning Roadmap
+@tableofcontents
+
+@includemarkdown{LEARNING_ROADMAP.md}
+
+*/
+
+/** @page cpp_stack_guide C/C++ Development Stack
+@tableofcontents
+
+@includemarkdown{CPP_STACK.md}
+
+*/
