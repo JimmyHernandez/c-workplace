@@ -594,4 +594,3 @@ pip install cpplint flawfinder sphinx sphinx-rtd-theme conan
 - **Compiler Explorer:** [godbolt.org](https://godbolt.org/) — visualiza assembly.
 - **Open Source Projects:** Linux kernel, Git, SQLite, Redis.
 
-¡A programar!
