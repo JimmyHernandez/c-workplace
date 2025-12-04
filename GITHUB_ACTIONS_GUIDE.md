@@ -22,8 +22,8 @@ workflow de ejemplo que ejecuta `make docs` y publica `docs/html` en Pages.
 ## Workflow de ejemplo
 
 Guarda el siguiente archivo como `.github/workflows/publish-docs.yml` en la
-raíz del repositorio. Este workflow usa acciones oficiales para subir el
-artefacto y desplegarlo en Pages.
+raíz del repositorio. Este workflow usa `peaceiris/actions-gh-pages`, una acción
+estable y bien mantenida que evita dependencias con versiones deprecadas.
 
 ```yaml
 name: Publish Doxygen Docs
@@ -32,11 +32,6 @@ on:
   push:
     branches:
       - master
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   build-and-deploy:
@@ -55,41 +50,36 @@ jobs:
         run: |
           make docs
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: docs/html
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      contents: read
-
-    steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/html
 ```
 
 Explicación rápida de las secciones importantes:
 
-- `permissions`: permite que el token de GitHub Actions despliegue Pages.
+- `on: push` en rama `master`: dispara el workflow en cada push.
 - `actions/checkout`: obtiene el código fuente.
 - Instalación de `doxygen` y `graphviz`: necesario para generar los HTML.
 - `make docs`: ejecuta el `Makefile` target que genera `docs/html`.
-- `upload-pages-artifact` y `deploy-pages`: empaquetan y publican el contenido en Pages.
+- `peaceiris/actions-gh-pages@v3`: acción estable que publica el contenido en GitHub Pages automáticamente (usando el token GITHUB_TOKEN proporcionado por Actions). Publica en la rama `gh-pages` que GitHub Pages detecta y sirve.
 
 **Nota sobre versiones y deprecaciones**
 
-- Recientemente GitHub y las acciones oficiales pueden deprecar versiones antiguas
-  de las acciones (por ejemplo `actions/upload-artifact@v3`). Si tu workflow falla
-  con mensajes de deprecación, actualiza las referencias a las acciones a las
-  versiones mayores más recientes (por ejemplo `actions/upload-pages-artifact@v2`
-  y `actions/deploy-pages@v2`) o sigue las recomendaciones del changelog.
-  Esto evita errores automáticos en el runner relacionados con dependencias
-  obsoletas.
+- GitHub y las acciones oficiales pueden deprecar versiones antiguas
+  (por ejemplo `actions/upload-artifact@v3`). La versión anterior del workflow
+  usaba `actions/upload-pages-artifact@v2` y `actions/deploy-pages@v2`, que a su vez
+  dependían de `upload-artifact@v3` deprecado, causando fallos automáticos.
+  
+- **Solución implementada**: este workflow usa `peaceiris/actions-gh-pages@v3`,
+  una acción de terceros bien mantenida que no tiene esa dependencia y es más
+  estable para publicar en GitHub Pages. Publica en la rama `gh-pages` que GitHub
+  Pages detecta automáticamente.
+
+- Si tienes problemas de deprecación futura, verifica el changelog de GitHub Actions
+  y actualiza las referencias a las versiones recomendadas, o migra a alternativas
+  como `peaceiris/actions-gh-pages`.
 
 
 ## Qué esperar después del push

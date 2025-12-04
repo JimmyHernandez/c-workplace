@@ -5,11 +5,6 @@ on:
     branches:
       - master
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -27,20 +22,8 @@ jobs:
         run: |
           make docs
 
-      - name: Upload Pages artifact
-        # Use v2 to avoid dependency on deprecated upload-artifact v3
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: docs/html
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      contents: read
-
-    steps:
       - name: Deploy to GitHub Pages
-        # Use v2 which includes fixes and updated dependencies
-        uses: actions/deploy-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/html
