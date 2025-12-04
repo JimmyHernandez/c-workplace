@@ -708,5 +708,3 @@ Felicidades, has completado los ejercicios de C avanzado. Ahora puedes:
 4. **Explorar embebidos** — Arduino, microcontroladores
 5. **Especializarte** — Compiladores, bases de datos, renderizado gráfico
 
-**¡Sigue aprendiendo!** 🚀
-
