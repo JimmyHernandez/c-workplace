@@ -9,7 +9,7 @@ TEST_SRC := $(TESTDIR)/test_main.c
 TARGET := $(BINDIR)/main
 TEST_TARGET := $(BINDIR)/test_main
 
-.PHONY: all clean run test
+.PHONY: all clean run test docs
 all: $(TARGET)
 
 $(BINDIR):
@@ -29,3 +29,15 @@ test: $(TEST_TARGET)
 
 clean:
 	rm -rf $(BINDIR)
+
+# Documentation
+DOCS_DIR := docs
+
+.PHONY: docs docs-clean
+
+docs:
+	mkdir -p $(DOCS_DIR)
+	doxygen Doxyfile
+
+docs-clean:
+	rm -rf $(DOCS_DIR)

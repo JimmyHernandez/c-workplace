@@ -1,4 +1,11 @@
-# Build artifacts
+# Ignore generated documentation HTML
+docs/html/
+
+# If you build binaries into build/, keep them under source control only if desired
+# build/
+
+# Editor settings
+.vscode/# Build artifacts
 build/
 *.o
 *.a

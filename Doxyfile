@@ -1,0 +1,39 @@
+# Doxyfile generated for c-workplace - minimal, project-adapted
+
+# Project related settings
+PROJECT_NAME           = "c-workplace"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+
+# Input
+INPUT                  = src include README.md
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = NO
+
+# Extract
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+
+# HTML
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+
+# Disable LaTeX to keep output small
+GENERATE_LATEX         = NO
+
+# Warnings and verbosity
+QUIET                  = NO
+WARNINGS               = YES
+
+# Source browser
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# Use dot for graphs if available
+HAVE_DOT               = YES
+DOT_PATH               = 
+
+# Other useful settings
+STRIP_FROM_PATH        = 
+GENERATE_TAGFILE       = 
